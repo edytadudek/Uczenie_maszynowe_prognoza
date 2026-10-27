@@ -1,0 +1,27 @@
+# --- Dane (poufne / duże pliki - nie publikujemy) ---
+dane/surowe/*
+!dane/surowe/.gitkeep
+dane/przetworzone/*
+!dane/przetworzone/.gitkeep
+wyniki/prognozy/*
+!wyniki/prognozy/.gitkeep
+
+# Zapisane modele
+*.joblib
+*.pkl
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Środowisko / IDE / system
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
