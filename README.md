@@ -116,8 +116,8 @@ Analiza wag zmiennych objaśniających ujawniła różnice w zachowaniu algorytm
 * **Random Forest** w obu segmentach uzależnił się głównie od zmiennej historycznej `lag_364` (waga do 0.42) oraz danych strukturalnych (`podkategoria`, `klient`).
 * **Wniosek:** Wyższa skuteczność XGBoost wynika z faktu, że w predykcji popytu branży mięsnej uwarunkowania kalendarzowe (dni wolne, ruchome okna świąteczne) mają silniejsze znaczenie biznesowe niż prosta kontynuacja trendu z zeszłego roku.
 
-###  5. Wnioski z realizowanego projektu 
 ---------------------------------------------------------------------------------------------------------------
+###  5. Wnioski z realizowanego projektu 
 Zastosowanie uczenia maszynowego w predykcji procesów biznesowych jest możliwy, lecz wymaga dostosowania się do danych sprzedażowych i bilższego poznania konkekstu danych.
 
 Ograniczenia:
